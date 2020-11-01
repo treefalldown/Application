@@ -23,10 +23,10 @@ function draw() {
   background(180);
   noStroke();
 
-  fill(0);
-  textAlign(CENTER, BASELINE)
-  textSize(25);
-  text('This is not a wrench.', width/2, height-60);
+//   fill(0);
+//   textAlign(CENTER, BASELINE)
+//   textSize(25);
+//   text('This is not a wrench.', width/2, height-60);
 
   push();
   translate(windowWidth/1000, height/5);
