@@ -79,7 +79,7 @@ function draw() {
     // A counter gets started.
     // The counter ensures only 1 image gets saved.
     // The counter value is to offset the start time to show a little variety.
-    if (count === 50) {
+    if (count === 120) {
       save(cnv, 'CuriousObjects.png');
     };
     count++;
