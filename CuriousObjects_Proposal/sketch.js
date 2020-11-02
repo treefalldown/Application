@@ -13,7 +13,7 @@ let count = 0;
 
 function setup() {
   // Canvas is tied to the window size.
-  createCanvas(windowWidth, windowHeight);
+  cnv = createCanvas(windowWidth, windowHeight);
 
   // Presets for rectMode and rotation
   rectMode(CENTER);
